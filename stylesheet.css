@@ -1,0 +1,63 @@
+:root {
+    --color-primario: #6582E9;
+    --color-primario-sombra1: #A8BBFF;
+    --color-primario-sombra2: #DDE4FD;
+    --color-primario-accent: #5551FE;
+    --color-secundario-accent: #FFC600;
+    --color-secundario-sombra1: #FDF1C7;
+    --color-terciario-accent: #FFB7B7;
+}
+
+/* NAV BAR */
+
+.navbar{   
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.navbar li:nth-child(1), li:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.navbar a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 32px; 
+}
+
+.navbar a:hover{
+    color: var(--color-terciario-accent);
+    text-decoration:underline;
+}
+
+/* .navbar a:{
+    color: var(--color-terciario-accent);
+    text-decoration:underline;
+} */
+
+/* Section cards */
+.homeCards{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homeContent{
+    display: flex;
+    justify-content: space-around;
+
+}
